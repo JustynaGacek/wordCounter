@@ -1,9 +1,11 @@
 # wordCounter
 Program counts chars, words and lines in input text file.
 
+
 How to use the program:
 
 use command: python [-flags] [inputfile]
+
 
 Available flags with description:
 
