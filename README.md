@@ -15,6 +15,8 @@ Available flags with description:
 
 -l  use to count lines
 
+-h  use if you need help
+
 
 It is necessary to give flag to get solution.
 
