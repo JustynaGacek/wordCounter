@@ -26,7 +26,7 @@ try:
 
     file.close()
 
-
+   
     if args.chars:
         print("Number of chars: %d " % chars_counter)
 
