@@ -1,4 +1,4 @@
-import sys
+#import sys
 import argparse
 
 parser = argparse.ArgumentParser(description='Count letters, words and lines in text file.')
@@ -27,7 +27,7 @@ try:
     file.close()
 
 
-    if args.chars:
+    if args.chars: # PEP-8 violation - too many blank lines ( there should be only one blank line)
         print("Number of chars: %d " % chars_counter)
 
     if args.words:
@@ -36,5 +36,6 @@ try:
     if args.lines:
         print("Number of lines: %d" % lines_counter)
 
+    # there is no default value, so when program used without parameters, there is no output, but calculations are made
 except IOError:
     print("The name of file is incorrect or this file does not exist. Try to use other name of file.")
